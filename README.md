@@ -132,3 +132,10 @@ I like working on difficult problems, learning fast, and building projects that 
 # ⚡ Fun Fact
 
 Most of my learning comes from building real projects, getting stuck, debugging for hours, and figuring things out one problem at a time.
+
+
+
+# resume 
+----------------
+[Resume.pdf](https://github.com/user-attachments/files/27590085/Orange.White.Simple.Graphic.Designer.Resume.pdf)
+
