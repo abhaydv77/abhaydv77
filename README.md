@@ -64,6 +64,31 @@ I enjoy learning through building, solving difficult problems independently, and
 ---
 
 # 📌 Featured Projects
+---
+
+
+## 🔹 Court-AI — Intelligent Court Document Digitization Pipeline
+Built an end-to-end AI-powered pipeline that transforms raw scanned court documents (PDF/JPG/PNG) into searchable, structured digital records — reducing manual data entry workforce by 80%.
+
+### Key Features
+* OCR pipeline with EasyOCR + Google Cloud Vision fallback
+* Hybrid metadata extraction — Regex + Groq LLM (Llama 3.3 70B)
+* Automatic QC scoring — approved / review / rescan flagging
+* Unique barcode generation (CRT-YYYY-XXXXXXXX) per document
+* Searchable PDF generation with embedded OCR text layer
+* PostgreSQL — full audit trail, case grouping, duplicate detection
+* Excel + CSV report export
+* Next.js + Tailwind dark-themed dashboard with live pipeline status
+
+### Focus Areas
+* Production-level AI automation
+* Hindi + English document processing
+* Real-world government digitization workflows
+* Full-stack architecture (Python + TypeScript)
+
+🔗 Repository: <https://github.com/abhaydv77/courtAItool>
+
+---
 
 ## 🔹 Self-Healing RAG System with Chatbot
 
