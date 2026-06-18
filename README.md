@@ -138,6 +138,89 @@ Designed and built a multi-agent workflow using LangGraph that automatically cla
 
 ---
 
+ ## 🚧 Currently Building: HR Policy RAG Bot
+
+I'm building an HR Policy RAG (Retrieval-Augmented Generation) chatbot to learn how modern AI applications are built beyond simple API wrappers.
+
+### Why I'm Building This
+
+Most AI projects stop at sending prompts to an LLM. I wanted to understand how production AI systems combine:
+
+* Authentication and user identity
+* Structured relational data
+* Vector databases and semantic search
+* Retrieval-Augmented Generation (RAG)
+* Backend APIs and application architecture
+
+### What I'm Learning
+
+Through this project I'm learning:
+
+* FastAPI backend development
+* JWT authentication and authorization
+* SQLAlchemy and relational database design
+* Vector databases (ChromaDB)
+* Embeddings and semantic search
+* RAG pipeline design
+* Prompt engineering and context management
+* Production-style project structure
+* AI-assisted development workflows using CLI tools like OpenCode
+
+### How AI Is Used
+
+The chatbot doesn't rely only on an LLM.
+
+For every question:
+
+1. Relevant HR policy sections are retrieved from a vector database.
+2. Employee-specific information is fetched from a relational database.
+3. Both sources are combined into a single context.
+4. The LLM generates an answer grounded in company policies and employee data.
+
+This helps reduce hallucinations while providing personalized responses.
+
+### Development Workflow
+
+I build most of the backend myself while using AI tools to accelerate learning and development.
+
+* Using OpenCode as a CLI AI assistant for backend development
+* Learning by reviewing, modifying, and understanding generated code
+* Using AI to explore new concepts, debug issues, and improve implementation details
+* Focusing on understanding the architecture rather than blindly copying code
+
+### Current Status
+
+✅ Authentication system
+
+✅ Employee database
+
+✅ Document chunking and embeddings
+
+✅ ChromaDB vector search
+
+✅ End-to-end RAG pipeline
+
+✅ FastAPI API endpoints
+
+🔄 Improving retrieval quality and expanding policy coverage
+
+### Next Steps
+
+🚧 Create a Dockerfile and containerize the application
+
+🚧 Connect the project to Supabase for managed database services
+
+🚧 Build a frontend using React with AI-assisted development
+
+🚧 Integrate frontend and backend into a complete application
+
+🚧 Deploy the project and learn the end-to-end production workflow
+
+### Goal
+
+The goal is not just to build a chatbot, but to understand how real-world AI systems are designed, secured, deployed, and maintained. By the end of this project, I want to gain hands-on experience with backend development, vector databases, cloud services, containerization, frontend development, deployment, and effective use of AI-assisted engineering tools.
+
+
 # 🎯 What Drives Me
 
 I’m deeply interested in understanding how modern AI systems work under the hood — not just building demos, but designing systems that are reliable, scalable, and useful in real-world environments.
@@ -162,5 +245,6 @@ Most of my learning comes from building real projects, getting stuck, debugging 
 
 # resume 
 ----------------
-[Resume.pdf](https://github.com/user-attachments/files/27590085/Orange.White.Simple.Graphic.Designer.Resume.pdf)
+[Resume.pdf]([Abhay_Yadav_Resume_v3.pdf](https://github.com/user-attachments/files/29107425/Abhay_Yadav_Resume_v3.pdf)
+)
 
