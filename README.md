@@ -245,6 +245,6 @@ Most of my learning comes from building real projects, getting stuck, debugging 
 
 # resume 
 ----------------
-[Resume.pdf]([Abhay_Yadav_Resume_v3.pdf](https://github.com/user-attachments/files/29107425/Abhay_Yadav_Resume_v3.pdf)
-)
+[Resume.pdf] [Abhay_Yadav_Resume_v3.pdf](https://github.com/user-attachments/files/29107425/Abhay_Yadav_Resume_v3.pdf)
+
 
