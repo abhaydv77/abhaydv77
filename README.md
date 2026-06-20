@@ -139,6 +139,7 @@ Designed and built a multi-agent workflow using LangGraph that automatically cla
 ---
 
  ## 🚧 Currently Building: HR Policy RAG Bot
+🔗 Repository: https://github.com/abhaydv77/HR-RAG
 
 I'm building an HR Policy RAG (Retrieval-Augmented Generation) chatbot to learn how modern AI applications are built beyond simple API wrappers.
 
