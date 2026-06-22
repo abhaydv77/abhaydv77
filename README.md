@@ -1,6 +1,5 @@
 
 <img width="760" height="500" alt="abhay_github_profile_readme" src="https://github.com/user-attachments/assets/5b87092f-e681-443f-a030-a641123c6963" />
-" width="100%">
 </p>
 
 # Hi, I'm Abhay Yadav 👋
