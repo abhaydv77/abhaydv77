@@ -1,3 +1,53 @@
+[README.md](https://github.com/user-attachments/files/29218051/README.md)[<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=13&pause=1500&color=7B6EF6&center=true&vCenter=true&repeat=true&width=435&lines=AI+%2F+Backend+Engineer;Building+AI-driven+products;RAG+systems+%26+LLM+tooling;Open+to+Founding+Engineer+roles" alt="Typing SVG" />
+
+# hey, I'm Abhay 👋
+
+**18 · India · building things that think**
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://github.com/abhaydv77)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/abhaydv77)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://github.com/abhaydv77)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/abhaydv77)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/abhaydv77)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/abhaydv77)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://github.com/abhaydv77)
+
+</div>
+
+---
+
+### what I build
+
+AI-native backend systems — RAG pipelines, LLM integrations, agentic workflows. Self-taught, moving fast.
+
+Currently: **[HR RAG Bot](https://github.com/abhaydv77/HR-RAG)** — production RAG chatbot with JWT auth, RBAC, ChromaDB vector search, Groq LLM, Supabase Postgres, React frontend. Deployed on Render + Vercel.
+
+---
+
+### stack
+
+```
+backend     FastAPI · SQLAlchemy · JWT · RBAC
+AI / ML     RAG pipelines · LangGraph · ChromaDB · sentence-transformers · Groq
+database    PostgreSQL (Supabase) · SQLite · ChromaDB
+frontend    Next.js · React · TypeScript · Tailwind
+deploy      Render · Vercel · GitHub Actions
+```
+
+---
+
+<div align="center">
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=abhaydv77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B6EF6&icon_color=4EA8F0&text_color=ffffff)](https://github.com/abhaydv77)
+
+</div>
+Uploading README.md…]()
+
+
+
+
 # Hi, I'm Abhay Yadav 👋
 
 ### AI / GenAI Engineer · Self-Taught · Builder
