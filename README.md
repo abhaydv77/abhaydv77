@@ -1,9 +1,7 @@
 <img width="760" height="500" alt="abhay_github_profile_readme (1)" src="https://github.com/user-attachments/assets/5d206074-b3ff-47f7-9453-fbd81d494121" />![U<svg width="760" height="500" viewBox="0 0 760 500" xmlns="http://www.w3.org/2000/svg">
+
+
   
-
-<img width="760" height="500" alt="abhay_github_profile_readme" src="https://github.com/user-attachments/assets/5b87092f-e681-443f-a030-a641123c6963" />
-</p>
-
 # Hi, I'm Abhay Yadav 👋
 
 ### AI / GenAI Engineer · Self-Taught · Builder
