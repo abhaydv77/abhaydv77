@@ -239,7 +239,7 @@ I like working on difficult problems, learning fast, and building projects that 
 * GitHub: [https://github.com/abhaydv77](https://github.com/abhaydv77)
 * LinkedIn: [https://www.linkedin.com/in/abhaydv77/](https://www.linkedin.com/in/abhaydv77/)
 * Email: [ydvabhay99@gmail.com](mailto:ydvabhay99@gmail.com)
-
+* X : [abhaydv2](https://x.com/Abhaydv2)
 ---
 
 # ⚡ Fun Fact
