@@ -1,250 +1,116 @@
 <img width="760" height="500" alt="abhay_github_profile_readme (1)" src="https://github.com/user-attachments/assets/5d206074-b3ff-47f7-9453-fbd81d494121" /> <svg width="760" height="500" viewBox="0 0 760 500" xmlns="http://www.w3.org/2000/svg">
 
 
-  
-# Hi, I'm Abhay Yadav 👋
+  # hey, i'm Abhay 👋
 
-### AI / GenAI Engineer · Self-Taught · Builder
+18, self-taught. I build AI systems — agents, RAG pipelines, automation workflows.
 
-Self-taught AI/backend engineer focused on building agentic AI systems, RAG pipelines, and automation workflows using Python. Currently exploring multi-agent architectures, self-healing retrieval systems, backend infrastructure, and production-oriented AI applications.
 
-I enjoy learning through building, solving difficult problems independently, and experimenting with real-world AI workflows. My current focus is on AI agents, retrieval systems, backend engineering, and production-oriented AI infrastructure.
+## what I'm actually working on right now
 
----
+- multi-agent architectures using LangGraph
+- RAG systems that go beyond the basic "chunk → retrieve → prompt" pattern
+- backend APIs with FastAPI
+- figuring out how to make AI workflows actually reliable in production (not just demo-ready)
 
-# 🚀 What I'm Working On
+## tech I use
 
-* Multi-Agent AI Systems
-* Self-Healing RAG Architectures
-* LLM Orchestration & Automation
-* Backend APIs with FastAPI
-* Retrieval Pipelines & Vector Databases
-* AI Workflow Reliability & Evaluations
-* Production-Oriented AI Systems
+**AI / GenAI**
+LangGraph · LangChain · RAG pipelines · Prompt Engineering · Groq · OpenAI APIs · ChromaDB · FAISS · Agentic workflows
 
----
+**Backend**
+FastAPI · REST APIs · JWT auth · OAuth · Supabase · PostgreSQL · Redis · WebSockets
 
-# 🧠 Tech Stack
+**Frontend / Deploy**
+Next.js · React · Vercel · (deploying to a better infra than Render soon — had issues)
 
-## Languages
+**DevOps / Tools**
+Git · Docker · CI/CD basics · Kubernetes (learning) · Airtable API · OpenCode (my main AI coding assistant)
 
-* Python
-* Basic TypeScript
+**Currently learning**
+Kubernetes · observability · system design · AI evaluations · production reliability patterns
 
-## AI / GenAI
+## projects
 
-* LangChain
-* LangGraph
-* RAG Pipelines
-* Prompt Engineering
-* Agentic Workflows
-* OpenAI APIs
-* Groq APIs
-* Vector Databases (FAISS, ChromaDB)
+### Court-AI — Court Document Digitization Pipeline
+Built an end-to-end pipeline that takes raw scanned court documents (PDF/JPG/PNG) and turns them into searchable, structured digital records. The boring-but-real kind of AI work.
 
-## Backend
+**what's inside:**
+- OCR pipeline — EasyOCR with Google Cloud Vision as fallback
+- metadata extraction using Regex + Groq LLM (Llama 3.3 70B)
+- auto QC scoring: approved / needs review / rescan
+- unique barcode generation per document (CRT-YYYY-XXXXXXXX format)
+- searchable PDFs with embedded OCR text layer
+- PostgreSQL for full audit trail, case grouping, duplicate detection
+- Excel + CSV export
+- Next.js dark dashboard with live pipeline status
 
-* FastAPI
-* REST APIs
-* API Integrations
-* OAuth Basics
+Built this to understand what AI automation actually looks like for government-scale document workflows — Hindi + English both supported.
 
-## Tools & Workflow
+🔗 [github.com/abhaydv77/courtAItool](https://github.com/abhaydv77/courtAItool)
 
-* Git & GitHub
-* Airtable API
-* Debugging & Iteration
-* AI-Assisted Development
+### HR Policy RAG Bot
+A full-stack RAG chatbot for HR policy queries. Not a wrapper around ChatGPT — actually built the whole thing.
 
-## Currently Learning
+The idea: most AI demos stop at "send prompt, get response." I wanted to understand what happens when you combine auth, relational data, vector search, and an LLM into something that doesn't hallucinate your company's leave policy.
 
-* Docker
-* Deployment & Cloud Basics
-* Observability
-* System Design
-* AI Evaluations
-* Production Reliability
+**stack:**
+- FastAPI backend with JWT auth + RBAC (role-based access — employees only see what they're supposed to)
+- Supabase (PostgreSQL) for employee + policy data
+- ChromaDB for vector search
+- SentenceTransformer embeddings + Groq LLM
+- Next.js frontend on Vercel
+- Backend deployed (Render had some issues, moving to better infra)
 
----
+**how it works:**
+1. question comes in → relevant HR policy chunks retrieved from ChromaDB
+2. employee-specific data pulled from Supabase
+3. both combined into context → LLM generates a grounded answer
 
-# 📌 Featured Projects
----
+Reduces hallucinations significantly compared to just prompting an LLM cold.
 
+🔗 [github.com/abhaydv77/HR-RAG](https://github.com/abhaydv77/HR-RAG)
 
-## 🔹 Court-AI — Intelligent Court Document Digitization Pipeline
-Built an end-to-end AI-powered pipeline that transforms raw scanned court documents (PDF/JPG/PNG) into searchable, structured digital records — reducing manual data entry workforce by 80%.
+### Multi-Agent Email Automation System
+LangGraph-based multi-agent workflow that classifies incoming emails (CVs, complaints, ideas, etc.) and routes them automatically. Built this when I wanted to actually learn LangGraph beyond tutorials.
 
-### Key Features
-* OCR pipeline with EasyOCR + Google Cloud Vision fallback
-* Hybrid metadata extraction — Regex + Groq LLM (Llama 3.3 70B)
-* Automatic QC scoring — approved / review / rescan flagging
-* Unique barcode generation (CRT-YYYY-XXXXXXXX) per document
-* Searchable PDF generation with embedded OCR text layer
-* PostgreSQL — full audit trail, case grouping, duplicate detection
-* Excel + CSV report export
-* Next.js + Tailwind dark-themed dashboard with live pipeline status
+**what's inside:**
+- LangGraph StateGraph with conditional routing
+- Gmail API with OAuth 2.0
+- Airtable for structured storage
+- background scheduler for continuous processing
+- robust JSON parsing — LLMs sometimes return markdown inside JSON, had to handle that
 
-### Focus Areas
-* Production-level AI automation
-* Hindi + English document processing
-* Real-world government digitization workflows
-* Full-stack architecture (Python + TypeScript)
+Debugged a lot of fun stuff: OAuth scope issues, Airtable field mismatches, LLM output inconsistencies. The kind of stuff you only hit when you're building something real.
 
-🔗 Repository: <https://github.com/abhaydv77/courtAItool>
+🔗 [github.com/abhaydv77/multi-agent-email-system](https://github.com/abhaydv77/multi-agent-email-system)
 
----
+### Self-Healing RAG System
+RAG system that detects when retrieved content is low quality or incorrect and tries to fix it autonomously instead of just returning a bad answer.
 
-## 🔹 Self-Healing RAG System with Chatbot
+**what's inside:**
+- document ingestion + chunking pipeline
+- embedding-based retrieval
+- automated issue detection + correction logic
+- LLM-based patch generation
+- logging throughout
 
-Built a self-healing Retrieval-Augmented Generation (RAG) system capable of detecting incorrect or low-quality information in source documents and autonomously generating corrected responses using LLM-based reasoning workflows.
+Main focus: hallucination reduction, retrieval reliability, agentic reasoning in a production-style backend.
 
-### Key Features
+🔗 [github.com/abhaydv77/SELF-HEALING-RAG](https://github.com/abhaydv77/SELF-HEALING-RAG)
 
-* Document ingestion & chunking pipelines
-* Embedding-based retrieval workflows
-* Automated issue detection & correction logic
-* Structured patch/update generation
-* Chatbot interaction APIs
-* Logging & workflow tracking systems
+## what actually drives me
 
-### Focus Areas
+I like building things that don't have obvious answers. The parts where you have to figure out why the LLM is returning markdown inside a JSON field at 2am, or why your retrieval quality drops for certain query types. That stuff.
 
-* Retrieval reliability
-* Hallucination reduction
-* Agentic reasoning workflows
-* Production-oriented backend architecture
+I'm not trying to build demos. I want to understand how production AI systems are designed, where they break, and how to make them not break.
 
-🔗 Repository: <https://github.com/abhaydv77/SELF-HEALING-RAG>
+## find me
 
----
-
-## 🔹 Multi-Agent Email Automation System
-
-Designed and built a multi-agent workflow using LangGraph that automatically classifies incoming emails into categories such as CVs, Complaints, and Ideas using LLM-powered routing.
-
-### Key Features
-
-* Multi-agent routing using LangGraph StateGraph
-* Conditional workflow execution
-* Gmail API integration with OAuth 2.0
-* Airtable integration for structured data storage
-* Automated scheduler for background processing
-* Robust JSON parsing for inconsistent LLM outputs
-
-### Focus Areas
-
-* Workflow orchestration
-* Automation pipelines
-* API integrations
-* Reliable AI processing
-
-🔗 Repository: <https://github.com/abhaydv77/multi-agent-email-system>
-
----
-
- ## 🚧 Currently Building: HR Policy RAG Bot
-🔗 Repository: https://github.com/abhaydv77/HR-RAG
-
-I'm building an HR Policy RAG (Retrieval-Augmented Generation) chatbot to learn how modern AI applications are built beyond simple API wrappers.
-
-### Why I'm Building This
-
-Most AI projects stop at sending prompts to an LLM. I wanted to understand how production AI systems combine:
-
-* Authentication and user identity
-* Structured relational data
-* Vector databases and semantic search
-* Retrieval-Augmented Generation (RAG)
-* Backend APIs and application architecture
-
-### What I'm Learning
-
-Through this project I'm learning:
-
-* FastAPI backend development
-* JWT authentication and authorization
-* SQLAlchemy and relational database design
-* Vector databases (ChromaDB)
-* Embeddings and semantic search
-* RAG pipeline design
-* Prompt engineering and context management
-* Production-style project structure
-* AI-assisted development workflows using CLI tools like OpenCode
-
-### How AI Is Used
-
-The chatbot doesn't rely only on an LLM.
-
-For every question:
-
-1. Relevant HR policy sections are retrieved from a vector database.
-2. Employee-specific information is fetched from a relational database.
-3. Both sources are combined into a single context.
-4. The LLM generates an answer grounded in company policies and employee data.
-
-This helps reduce hallucinations while providing personalized responses.
-
-### Development Workflow
-
-I build most of the backend myself while using AI tools to accelerate learning and development.
-
-* Using OpenCode as a CLI AI assistant for backend development
-* Learning by reviewing, modifying, and understanding generated code
-* Using AI to explore new concepts, debug issues, and improve implementation details
-* Focusing on understanding the architecture rather than blindly copying code
-
-### Current Status
-
-✅ Authentication system
-
-✅ Employee database
-
-✅ Document chunking and embeddings
-
-✅ ChromaDB vector search
-
-✅ End-to-end RAG pipeline
-
-✅ FastAPI API endpoints
-
-🔄 Improving retrieval quality and expanding policy coverage
-
-### Next Steps
-
-🚧 Create a Dockerfile and containerize the application
-
-🚧 Connect the project to Supabase for managed database services
-
-🚧 Build a frontend using React with AI-assisted development
-
-🚧 Integrate frontend and backend into a complete application
-
-🚧 Deploy the project and learn the end-to-end production workflow
-
-### Goal
-
-The goal is not just to build a chatbot, but to understand how real-world AI systems are designed, secured, deployed, and maintained. By the end of this project, I want to gain hands-on experience with backend development, vector databases, cloud services, containerization, frontend development, deployment, and effective use of AI-assisted engineering tools.
-
-
-# 🎯 What Drives Me
-
-I’m deeply interested in understanding how modern AI systems work under the hood — not just building demos, but designing systems that are reliable, scalable, and useful in real-world environments.
-
-I like working on difficult problems, learning fast, and building projects that push me beyond my current level.
-
----
-
-# 📫 Connect With Me
-
-* GitHub: [abhaydv77](https://github.com/abhaydv77)
-* LinkedIn: [abhaydv77/](https://www.linkedin.com/in/abhaydv77/)
-* Email: [ydvabhay99@gmail.com](mailto:ydvabhay99@gmail.com)
-* X : [abhaydv2](https://x.com/Abhaydv2)
----
-
-# ⚡ Fun Fact
-
-Most of my learning comes from building real projects, getting stuck, debugging for hours, and figuring things out one problem at a time.
+- GitHub: [abhaydv77](https://github.com/abhaydv77)
+- LinkedIn: [abhaydv77](https://www.linkedin.com/in/abhaydv77/)
+- X: [abhaydv2](https://x.com/Abhaydv2)
+- Email: ydvabhay99@gmail.com
 
 
 
