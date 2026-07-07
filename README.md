@@ -13,46 +13,6 @@
 - backend APIs with FastAPI
 - figuring out how to make AI workflows actually reliable in production (not just demo-ready)
 
-## tech I use
-
-## 🛠️ tech i use
-
-### 🧠 AI / GenAI
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55000?style=for-the-badge&logo=speedtest&logoColor=white)
-
-> **Architectures:** LangGraph, RAG pipelines, Agentic workflows, Prompt Engineering, ChromaDB, FAISS
-
----
-
-### ⚙️ Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-> **Concepts:** REST APIs, JWT auth, OAuth, WebSockets
-
----
-
-### 🎨 Frontend & Deployment
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
----
-
-### 🧰 DevOps & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-> **Other Tools:** Airtable API, OpenCode, CI/CD basics
-
----
-
-### 📚 Currently Learning
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 > **Focus areas:** Observability, System Design, AI evaluations, Production Reliability Patterns
 
