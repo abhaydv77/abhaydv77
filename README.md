@@ -3,23 +3,23 @@
 
   # hey, i'm Abhay 👋
 
-18, self-taught. I build AI systems agents, RAG pipelines, automation workflows.
+18, self-taught. Early in my career, building in public and learning every day. I build AI systems, agents, RAG pipelines, and automation workflows. Just getting started more to come.
 
 
 ## what I'm actually working on right now
 
-- multi-agent architectures using LangGraph
-- RAG systems that go beyond the basic "chunk → retrieve → prompt" pattern
-- backend APIs with FastAPI
-- figuring out how to make AI workflows actually reliable in production (not just demo-ready)
+* **TeamCode** — a collaborative AI coding workspace that runs entirely in the terminal.
+* Create specialized AI teammates (e.g. Backend Engineer, Frontend Engineer, Reviewer, Researcher) with custom roles and responsibilities.
+* Coordinate multiple AI coding agents across different terminal sessions while they work on the same project.
+* Assign tasks, review progress, edit files, and send prompts to any connected code agent from a central workspace.
+* Built to make AI assisted software development feel like collaborating with a real engineering team.
 
 
 > **Focus areas:** Observability, System Design, AI evaluations, Production Reliability Patterns
 
 ## what actually drives me
 
-I like building things that don't have obvious answers. The parts where you have to figure out why the LLM is returning markdown inside a JSON field at 2am, or why your retrieval quality drops for certain query types. That stuff.
-
+I like building things that don't have obvious answers.
 I'm not trying to build demos. I want to understand how production AI systems are designed, where they break, and how to make them not break.
 
 ## find me
@@ -28,11 +28,4 @@ I'm not trying to build demos. I want to understand how production AI systems ar
 - LinkedIn: [abhaydv77](https://www.linkedin.com/in/abhaydv77/)
 - X: [abhaydv2](https://x.com/Abhaydv2)
 - Email: ydvabhay99@gmail.com
-
-
-
-# resume 
-----------------
-[Resume.pdf] [Abhay_Yadav_Resume_v3.pdf](https://github.com/user-attachments/files/29107425/Abhay_Yadav_Resume_v3.pdf)
-
 
