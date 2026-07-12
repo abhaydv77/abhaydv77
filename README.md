@@ -1,7 +1,7 @@
 <img width="760" height="500" alt="abhay_github_profile_readme (1)" src="https://github.com/user-attachments/assets/5d206074-b3ff-47f7-9453-fbd81d494121" /> <svg width="760" height="500" viewBox="0 0 760 500" xmlns="http://www.w3.org/2000/svg">
 
 
-  # hey, i'm Abhay 👋
+  # hey, i'm Abhay Yadav 👋
 
 18, self-taught. Early in my career, building in public and learning every day. I build AI systems, agents, RAG pipelines, and automation workflows. Just getting started more to come.
 
