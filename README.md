@@ -37,11 +37,6 @@ I like building things that don't have obvious answers. I'm not trying to build 
 
 ---
 
-### 📫 Let's connect
-
-<p align="left">
-  <a href="https://github.com/abhaydv77"><img src="https://img.shields.io/badge/GitHub-abhaydv77-181717?logo=github" alt="GitHub"/></a>
-</p>
 
 <p align="center"><i>Currently exploring: how to make multi-agent systems reliable enough to trust in production.</i></p>
 
