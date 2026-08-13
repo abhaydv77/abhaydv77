@@ -18,7 +18,7 @@ I build AI systems, agents, RAG pipelines, and automation workflows. Early in my
 
 ### 🎯 Focus areas
 
-`Observability` · `System Design` · `AI Evaluations` · `Production Reliability Patterns`
+`Harness system` · `System Design` · `AI Evaluations` · `Production Reliability Patterns`
 
 ### 🧠 What actually drives me
 
