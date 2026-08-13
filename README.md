@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/learning-every%20day-orange" alt="learning"/>
 </p>
 
-I build AI systems, agents, RAG pipelines, and automation workflows. Early in my career, learning every day — more to come.
+I build AI systems, agents, RAG pipelines, and automation workflows. Early in my career, learning every day more to come.
 
 ---
 
