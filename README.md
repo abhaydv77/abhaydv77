@@ -8,7 +8,7 @@
 
 
 
-Building Agentic Systems ,RAG pipelines, AI Products, and automation workflows. 
+         Building Agentic Systems ,RAG pipelines, AI Products, and automation workflows. 
 
 ---
 
@@ -20,13 +20,13 @@ Building Agentic Systems ,RAG pipelines, AI Products, and automation workflows.
 
 Lexxer is a small AI agent harness for data analysis.
 
-Instead of letting an LLM handle everything itself, Lexxer separates the agent workflow into different layers — working memory, context building, tool execution, validation, and tracing.
+Instead of letting an LLM handle everything itself, Lexxer separates the agent workflow into different layers - working memory, context building, tool execution, validation, and tracing.
 
 The agent can understand a data-analysis request, choose the right tool, execute it, validate the result, and retry when something goes wrong.
 
-The goal isn't just to build a data analyst bot — it's to understand and experiment with how reliable agentic systems are structured and engineered.
+The goal isn't just to build a data analyst bot it's to understand and experiment with how reliable agentic systems are structured and engineered.
 
-An AI agent that doesn't just answer — it works through a controlled loop.
+An AI agent that doesn't just answer it works through a controlled loop.
 
 ---
 
