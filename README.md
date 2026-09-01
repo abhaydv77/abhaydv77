@@ -6,13 +6,9 @@
   <b>18 · Self-taught AI Engineer · Building in public</b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-shipping-brightgreen" alt="status"/>
-  <img src="https://img.shields.io/badge/focus-agentic%20AI-blueviolet" alt="focus"/>
-  <img src="https://img.shields.io/badge/learning-every%20day-orange" alt="learning"/>
-</p>
 
-I build AI systems, agents, RAG pipelines, and automation workflows. Early in my career, learning every day more to come.
+
+Building Agentic Systems ,RAG pipelines, AI Products, and automation workflows. 
 
 ---
 
@@ -20,9 +16,17 @@ I build AI systems, agents, RAG pipelines, and automation workflows. Early in my
 
 `Harness system` · `System Design` · `AI Evaluations` · `Production Reliability Patterns`
 
-### 🧠 What actually drives me
+### 🧠 What I'm Building
 
-I like building things that don't have obvious answers. I'm not trying to build demos — I want to understand how production AI systems are designed, where they break, and how to make them not break.
+Lexxer is a small AI agent harness for data analysis.
+
+Instead of letting an LLM handle everything itself, Lexxer separates the agent workflow into different layers — working memory, context building, tool execution, validation, and tracing.
+
+The agent can understand a data-analysis request, choose the right tool, execute it, validate the result, and retry when something goes wrong.
+
+The goal isn't just to build a data analyst bot — it's to understand and experiment with how reliable agentic systems are structured and engineered.
+
+An AI agent that doesn't just answer — it works through a controlled loop.
 
 ---
 
@@ -38,7 +42,7 @@ I like building things that don't have obvious answers. I'm not trying to build 
 ---
 
 
-<p align="center"><i>Currently exploring: how to make multi-agent systems reliable enough to trust in production.</i></p>
+<p align="center"><i>Currently exploring: Harness system , AI Evaluations.</i></p>
 
 ## find me
 
